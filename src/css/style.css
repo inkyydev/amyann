@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url(../fonts/ppneuemontreal-thin.otf);
+  font-weight: 300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PP Neue Montreal";
+  box-sizing: border-box;
+}
+
+.container-big {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  color: #464647;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}
+
+h1 {
+  font-size: 84px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #332c26;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+}
+
+h5 {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 1.5;
+  color: #fff;
+  font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .container-big {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  .container-big {
+    padding: 0 20px;
+  }
+}
