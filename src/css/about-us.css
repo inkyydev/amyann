@@ -1,0 +1,200 @@
+.fullscreen-hero {
+  overflow: hidden;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#about-us-hero {
+  background-image: url(../images/lorem-ipsum-bc.png);
+}
+
+.fl-page {
+  overflow: hidden;
+}
+
+.about-wrapper p {
+  max-width: 691px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slower-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.h2-48 {
+  color: #332c26;
+  max-width: 393px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-size: 48px !important;
+}
+
+.slower-left p {
+  color: #464647;
+  font-size: 16px;
+}
+
+.slower-card-p p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.slower-card-p {
+  max-width: 477px;
+}
+
+#slower-living {
+  background-color: #f8f6f5;
+}
+
+.slower-right {
+  margin-right: -124px;
+}
+
+#desisgn-atmosphere {
+  background-color: #f8f6f5;
+}
+
+.atmosphere-left {
+  margin-left: -124px;
+}
+
+.atmosphere-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.atmosphere-right {
+  padding-left: 100px;
+}
+
+.atmosphere-card-p {
+  max-width: 477px;
+}
+
+.atmosphere-card-p p {
+  color: #464647;
+  font-size: 16px;
+}
+
+.atmosphere-card-p p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.last-48 {
+  max-width: 100% !important;
+}
+
+.performance-p {
+  max-width: 528px !important;
+}
+
+.h-32 {
+  font-size: 32px !important;
+  margin: 22px 0 10px;
+}
+
+.options-text p {
+  max-width: 388px;
+  color: #332c26;
+  font-size: 16px;
+}
+
+#about-options {
+  padding: 108px 0;
+}
+
+.options-wrapper .row .col-lg-4 {
+  padding: 0 4px;
+}
+
+.options-wrapper .row {
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+@media (max-width: 1024px) {
+  .atmosphere-right {
+    padding-left: 40px;
+  }
+  #about-us-hero {
+    background-position: top center;
+  }
+
+  .h2-48 {
+    font-size: 36px !important;
+    max-width: 248px;
+  }
+
+  #slower-living {
+    padding: 80px 0;
+  }
+
+  .slower-left {
+    padding-right: 20px;
+  }
+
+  .options-wrapper .row {
+    row-gap: 20px;
+  }
+
+  #about-options {
+    padding: 65px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  #about-us-hero {
+    background-position: top center;
+  }
+
+  #slower-living {
+    padding: 40px 0;
+  }
+
+  .h2-48 {
+    font-size: 32px !important;
+    max-width: 252px;
+  }
+
+  .slower-right {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .atmosphere-right {
+    padding: 0 12px;
+    margin-top: 30px;
+  }
+
+  .slower-content-box {
+    margin-top: 30px;
+  }
+
+  .slower-content-box {
+    margin-bottom: 30px;
+  }
+
+  .atmosphere-content-box {
+    margin-bottom: 30px;
+  }
+
+  .desisgn-atmosphere-wrapper .row {
+    flex-direction: column-reverse;
+  }
+
+  #about-options {
+    padding: 35px 0;
+  }
+}
