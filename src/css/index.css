@@ -2,13 +2,14 @@
 .fullscreen-hero {
   position: relative;
   overflow: hidden;
-  min-height: 597px;
+  min-height: 82vh;
   background-size: cover;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 50px;
   text-align: center;
+  background-position: center;
 }
 #outdoor-living {
   min-height: 100vh;
@@ -151,7 +152,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 558px;
+  min-height: 78vh;
   width: 100%;
 }
 
@@ -513,6 +514,7 @@
   .lento-slider .owl-nav {
     margin-left: 55px;
   }
+
   .lento-collection-wrapper {
     margin-left: -15px;
   }
@@ -566,6 +568,19 @@
 
   .lento-slider .owl-nav {
     margin-left: 35px;
+  }
+
+  .fullscreen-hero {
+    min-height: 36vh;
+    background-position: center;
+  }
+
+  .materials-card {
+    min-height: 55vh;
+  }
+
+  .type-two-wrapper {
+    min-height: 30vh;
   }
 }
 
@@ -659,10 +674,24 @@
   .lento-card-right h2 {
     max-width: 100%;
   }
+
   #lento-collection .container {
     padding: 0;
   }
+
   .lento-collection-wrapper {
     margin-left: -1px;
+  }
+
+  .fullscreen-hero {
+    min-height: 50vh;
+  }
+
+  .materials-card {
+    max-height: 66vh;
+  }
+
+  .type-two-wrapper {
+    min-height: 40vh;
   }
 }
